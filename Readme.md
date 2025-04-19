@@ -1,7 +1,7 @@
 # 🧬 Dr_Quine - Self-Replicating Programs in C
 
 This project is a deep dive into the world of **Quines** — programs that can **reproduce their own source code**.  
-It is part of the *Snow Crash / Malware* curriculum, and focuses on code self-awareness, low-level manipulation, and recursion logic through source code generation.
+It is part of the *Malware* curriculum, and focuses on code self-awareness, low-level manipulation, and recursion logic through source code generation.
 
 ---
 
