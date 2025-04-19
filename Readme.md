@@ -1,4 +1,4 @@
-# 🧬 Dr_Quine - Self-Replicating Programs in C
+# 🧬 Dr_Quine - Self-Replicating Programs
 
 This project is a deep dive into the world of **Quines** — programs that can **reproduce their own source code**.  
 It is part of the *Malware* curriculum, and focuses on code self-awareness, low-level manipulation, and recursion logic through source code generation.
@@ -44,24 +44,14 @@ The goal is to create a clean, self-contained program that achieves this using c
 
 > A program that recursively spawns and compiles copies of itself
 
-- When run, it generates a copy of itself in a file with a decreasing index (e.g. `Sully_5.c`, `Sully_4.c`, etc.).
+- When run, it generates a copy of itself in a file with a decreasing index (e.g. `Sully_4.c`, `Sully_3.c`, etc.).
 - Each child is compiled and executed automatically.
 - The loop continues until the index reaches `0`.
 
-- Focus: recursion, index manipulation, process control (`fork`, `exec`, or `system`), and self-aware file naming.
+- Focus: recursion, index manipulation, process control (`system`), and self-aware file naming.
 
 ---
 
 ## 🔧 Compilation
 
-Each file can be compiled using `gcc`:
-
-```bash
-gcc -Wall -Wextra -Werror -o Colleen Colleen.c
-./Colleen
-
-gcc -Wall -Wextra -Werror -o Grace Grace.c
-./Grace
-
-gcc -Wall -Wextra -Werror -o Sully Sully.c
-./Sully
+Each file can be compiled using `make`:
